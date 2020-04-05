@@ -1,0 +1,97 @@
+header{background-color:orange;
+		padding:20px;}
+		
+h2{font-family: rockwell; 
+	color: blue;
+	font-size: 80px; 
+	text-align:center; 
+	margin-left:800px; 
+    text-decoration:underline;}
+
+#logo{font-family: monospace; 
+	  margin-left:95px; 
+	  font-size:20px; 
+	  font-weight:bold;}
+
+		
+img{float:left; 
+	border:5px solid blue;}
+
+nav{clear:left; 
+	border:5px solid blue;}
+	
+nav a{padding:56px; 
+	  font-size: 20.5px; 
+	  font-family: Arial, Helvetica, serif; 
+	  font-weight:bold; 
+	  color:blue; 
+	  text-decoration:none;
+	  text-align:Center;}
+	
+nav a:hover{color:orange;}
+
+nav a:active{color:blue;}
+
+footer{background-color:orange; 
+	   text-align:center; 
+	   padding:30px;}
+
+h1{text-align:center; 
+   font-family:rockwell; 
+   background-color:orange; 
+   border:5px solid blue;
+   padding:10px;
+   color:blue;}
+
+p{text-align:center; 
+  padding:80px; 
+  font-size:48px; 
+  font-family:Bookman; 
+  font-weight:bold;}
+
+#nav{margin-bottom:60px; padding:5px;}
+
+.navcolor:hover{color:black;}
+.navcolor:active{color:blue;}
+
+form{margin-left:5px; 
+	 border:5px solid blue; 
+	 text-align:center;}
+
+table, td, th{border:2px solid black; 
+			  border-collapse:collapse; 
+			  margin:auto; 
+			  padding:40px;}
+			  
+.dark-mode {
+background-color: black;
+color: white;}
+
+button{margin-left:580px;
+margin-bottom:50px;}
+
+label{font-size: 22px; 
+font-family: Arial, Helvetica, serif; }
+
+td{font-size: 24px; 
+font-family: Arial, Helvetica, serif; 
+background-color:orange;
+color:blue}
+
+th{font-size: 32px; 
+font-family: Arial, Helvetica, serif;
+background-color:orange;
+color:blue;}
+
+@media only screen and (max-width: 800px) {
+  nav a { display : block;
+  padding: 2px;
+ text-align: center;}
+ img{display:none;}
+ #logo{text-align:center;
+ font-size:64px;
+ margin-left:50px;}
+ table ,th,td{padding:10px;}
+}
+ 
+  
